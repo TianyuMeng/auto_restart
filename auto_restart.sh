@@ -1,6 +1,6 @@
 # ! /bin/sh
 
-SERVICE_PATH="/home/pi/Documents/caiji-intel-fat-client-new/"
+SERVICE_PATH="/home/pi/Documents/caiji-intel-noweight-client-new/"
 
 SERVICE_NAME="camtest"
 
@@ -31,7 +31,7 @@ do
 
     fi
 
-    sleep 1 //每秒检查一轮
+    sleep 1 #//每秒检查一轮
 
 done
 
